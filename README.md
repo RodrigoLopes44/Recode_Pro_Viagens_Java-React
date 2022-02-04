@@ -1,5 +1,5 @@
 # RecodeProViagens (RecodeTourism)
-### Projeto de Viagens refatorado para a entrega do projeto individual do módulo 3 do curso.
+### Projeto de Viagens refatorado para a entrega do projeto individual do módulo 4 do curso.
 
 #### A presente entrega visa contemplar as seguintes requisições: 
 
