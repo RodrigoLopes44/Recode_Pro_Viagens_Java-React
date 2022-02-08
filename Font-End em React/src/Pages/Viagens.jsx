@@ -22,27 +22,27 @@ export default function Viagens() {
                 <div className="container-viagens">
                     <div className="menu-lateral">
                         <ul className="list-group">
-                            <li className="list-group-item d-flex justify-content-between align-items-center" onclick="exibir_todos('trip')">
+                            <li className="list-group-item d-flex justify-content-between align-items-center">
                                 Exibir todas as viagens
                                 <span className="badge badge-primary badge-pill">7</span>
                             </li>
                 
-                            <li className="list-group-item d-flex justify-content-between align-items-center" onclick="exibir_categoria('trip-rj')">
+                            <li className="list-group-item d-flex justify-content-between align-items-center">
                                 Rio de Janeiro
                                 <span className="badge badge-primary badge-pill">2</span>
                             </li>
 
-                            <li className="list-group-item d-flex justify-content-between align-items-center" onclick="exibir_categoria('trip-sp')">
+                            <li className="list-group-item d-flex justify-content-between align-items-center">
                                 São Paulo
                                 <span className="badge badge-primary badge-pill">3</span>
                             </li>
             
-                            <li className="list-group-item d-flex justify-content-between align-items-center" onclick="exibir_categoria('trip-mg')">
+                            <li className="list-group-item d-flex justify-content-between align-items-center">
                                 Minas Gerais
                                 <span className="badge badge-primary badge-pill">1</span>
                             </li>
             
-                            <li className="list-group-item d-flex justify-content-between align-items-center" onclick="exibir_categoria('trip-ba')">
+                            <li className="list-group-item d-flex justify-content-between align-items-center">
                                 Bahia
                                 <span className="badge badge-primary badge-pill">1</span>
                             </li>
