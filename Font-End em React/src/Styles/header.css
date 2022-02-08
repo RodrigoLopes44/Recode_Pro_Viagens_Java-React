@@ -1,0 +1,53 @@
+* {
+  font-family: "Candara";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes animacao {
+  from {
+    width: 0%;
+    font-size: 0px;
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    font-size: 18px;
+    opacity: 1;
+  }
+}
+
+nav {
+  animation-name: animacao;
+  animation-duration: 0.8s;
+  font-weight: 678;
+  font-size: 18px;
+  background-color: #caebf2;
+  padding-right: 30px;
+}
+
+nav li a {
+  transition: all 1s ease 0s;
+}
+
+#jumbo {
+  background-color: #8c52ff;
+  color: #fff;
+  font-size: 19px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #999, transparent);
+}
+
+#submit-search {
+  background-color: #8c52ff;
+}
+
+#submit-search:hover {
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}

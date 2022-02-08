@@ -1,0 +1,75 @@
+@keyframes carousel {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -800%;
+  }
+}
+
+@keyframes info-entering {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.gallery {
+  width: 90%;
+  height: 250px;
+  overflow: hidden;
+  box-shadow: 4px 2px 2px 2px rgba(0, 0, 0, 1);
+  margin-left: 5%;
+  margin-top: 8px;
+}
+
+.gallery .photos {
+  width: 500%;
+  animation-name: carousel;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.gallery .photos img {
+  width: 20%;
+}
+
+/* Fim do Style do Carrossel */
+
+/* Style das divs de conteúdo */
+.content {
+  text-align: center;
+  animation-name: info-entering;
+  transition: all 0.5s ease-in-out 0.2s;
+  animation-duration: 3s;
+  font-size: 1.4rem;
+}
+
+.content #prision,
+u:hover {
+  color: #8c52ff;
+  opacity: 0.8;
+}
